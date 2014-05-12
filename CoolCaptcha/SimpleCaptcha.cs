@@ -201,7 +201,7 @@ namespace CoolCaptcha
         #region static ctor.
 
         /// <summary>
-        /// init <see cref="SimpleCaptcha"/> class static members.
+        /// initialize <see cref="SimpleCaptcha"/> class static members.
         /// </summary>
         static SimpleCaptcha()
         {
@@ -259,7 +259,8 @@ namespace CoolCaptcha
          */
         #endregion
 
-        /// init <see cref="SimpleCaptcha"/> class.
+        /// <summary>
+        /// initialize <see cref="SimpleCaptcha"/> class.
         /// </summary>
         public SimpleCaptcha()
         {

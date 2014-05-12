@@ -80,9 +80,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoolCaptcha\CoolCaptcha.csproj">
+    <ProjectReference Include="..\CoolCaptcha\CoolCaptcha.Net20.csproj">
       <Project>{b2405c13-d236-41c4-a62b-90934257896b}</Project>
-      <Name>CoolCaptcha</Name>
+      <Name>CoolCaptcha.Net20</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

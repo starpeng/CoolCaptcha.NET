@@ -1,11 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolCaptcha", "CoolCaptcha\CoolCaptcha.csproj", "{B2405C13-D236-41C4-A62B-90934257896B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolCaptcha.Net20", "CoolCaptcha\CoolCaptcha.Net20.csproj", "{B2405C13-D236-41C4-A62B-90934257896B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaTool", "CaptchaTool\CaptchaTool.csproj", "{061BB66B-08A7-4356-AADE-0CA6734F2799}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C242D224-DE50-4A0C-85FD-3D1116CB1F48} = {C242D224-DE50-4A0C-85FD-3D1116CB1F48}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaTest", "CaptchaTest\CaptchaTest.csproj", "{C242D224-DE50-4A0C-85FD-3D1116CB1F48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9} = {2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}
+		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6} = {29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolCaptcha.Net35", "CoolCaptcha\CoolCaptcha.Net35.csproj", "{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2405C13-D236-41C4-A62B-90934257896B} = {B2405C13-D236-41C4-A62B-90934257896B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolCaptcha.Net40", "CoolCaptcha\CoolCaptcha.Net40.csproj", "{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2405C13-D236-41C4-A62B-90934257896B} = {B2405C13-D236-41C4-A62B-90934257896B}
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9} = {2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,11 +38,17 @@ Global
 		{061BB66B-08A7-4356-AADE-0CA6734F2799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{061BB66B-08A7-4356-AADE-0CA6734F2799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061BB66B-08A7-4356-AADE-0CA6734F2799}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{061BB66B-08A7-4356-AADE-0CA6734F2799}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C242D224-DE50-4A0C-85FD-3D1116CB1F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C242D224-DE50-4A0C-85FD-3D1116CB1F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C242D224-DE50-4A0C-85FD-3D1116CB1F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C242D224-DE50-4A0C-85FD-3D1116CB1F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
