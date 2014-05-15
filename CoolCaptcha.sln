@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolCaptcha.Net40", "CoolCa
 		{2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9} = {2FED99DC-E78A-4169-B5DF-1D8DB4BD3BA9}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaConsoleTest", "CaptchaConsoleTest\CaptchaConsoleTest.csproj", "{6C93B072-EBEF-4D60-AA83-7C50DC108CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,9 @@ Global
 		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E7B5DE-4837-4E6E-B6CA-22C378B6AAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C93B072-EBEF-4D60-AA83-7C50DC108CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C93B072-EBEF-4D60-AA83-7C50DC108CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C93B072-EBEF-4D60-AA83-7C50DC108CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
